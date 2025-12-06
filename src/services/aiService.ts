@@ -8,9 +8,9 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY || "dummy_key");
-// Using "gemini-1.5-flash" for speed and efficiency.
-// Fallback models could be "gemini-pro" or "gemini-1.5-pro".
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+// Using "gemini-2.5-flash" as requested.
+// If this model is not available, fallback to "gemini-1.5-flash" or "gemini-pro".
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 export const generateQuestions = async (topic: string, retryCount = 0): Promise<Question[]> => {
   if (!API_KEY) {

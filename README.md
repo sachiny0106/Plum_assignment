@@ -9,7 +9,7 @@ A dynamic, AI-driven quiz application that generates questions on any topic you 
 ## 🚀 Features
 
 *   **Dynamic Topic Selection**: Enter any topic (e.g., "Quantum Physics", "History of Rome", "JavaScript") and get a custom quiz instantly.
-*   **AI-Generated Content**: Questions, options, and explanations are generated in real-time using Google Gemini 1.5 Flash.
+*   **AI-Generated Content**: Questions, options, and explanations are generated in real-time using Google Gemini 2.5 Flash.
 *   **Personalized Feedback**: Receive AI-generated feedback based on your score at the end of the quiz.
 *   **Dark/Light Mode**: Fully responsive UI with theme switching support.
 *   **Robust Error Handling**: Includes retry logic for AI requests and graceful error states.
