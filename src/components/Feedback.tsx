@@ -64,7 +64,7 @@ export const Feedback: React.FC<FeedbackProps> = ({ result, topic, questions, us
               <p>No incorrect answers! Perfect score! 🎉</p>
             </div>
           ) : (
-            filteredQuestions.map((q, index) => {
+            filteredQuestions.map((q) => {
               const userAnswerId = userAnswers[q.id];
               const isCorrect = userAnswerId === q.correctOptionId;
               // Find original index for question number
