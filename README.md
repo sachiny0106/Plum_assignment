@@ -4,7 +4,7 @@ A dynamic, AI-driven quiz application that generates questions on any topic you 
 
 ## 🎥 Demo
 
-*(Insert link to screen recording or hosted demo here)*
+[**Live Demo**](https://plum-assignment-brown.vercel.app/)
 
 ## 🚀 Features
 
