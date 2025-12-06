@@ -99,13 +99,13 @@ Generate a short, encouraging, and personalized feedback message (max 2 sentence
 ## 📸 Screenshots
 
 ### Topic Selection
-*(Add screenshot of the home screen)*
+![Topic Selection](assets/topic-selection.png)
 
 ### Quiz Interface
-*(Add screenshot of a question being asked)*
+![Quiz Interface](assets/quiz-interface.png)
 
 ### Results & Feedback
-*(Add screenshot of the results screen)*
+![Results & Feedback](assets/results.png)
 
 ## ⚠️ Known Issues & Improvements
 
