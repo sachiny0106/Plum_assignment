@@ -42,7 +42,7 @@ The goal was to create an interactive quiz application where the content (questi
 
 **Assumptions:**
 - The application is built as a Single Page Application (SPA) using React and TypeScript.
-- We are using Google's Gemini 1.5 Flash model for fast and cost-effective generation.
+- We are using Google's Gemini 2.5 Flash model for fast and cost-effective generation.
 
 ## 3. AI Prompts & Iterations
 

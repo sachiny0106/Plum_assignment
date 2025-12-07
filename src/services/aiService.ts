@@ -8,8 +8,8 @@ if (!API_KEY) {
 }
 
 const genAI = new GoogleGenerativeAI(API_KEY || "dummy_key");
-// Reverting to "gemini-1.5-flash" as "gemini-2.5-flash" is causing API errors.
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+// Using "gemini-2.5-flash" as it is available and working with the provided key.
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 export const generateQuestions = async (topic: string, retryCount = 0): Promise<Question[]> => {
   if (!API_KEY) {
